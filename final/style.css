@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.letters-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.letters-container button {
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 2px solid rgb(138, 138, 51);
+  background-color: #f9f9f9;
+  color: rgb(138, 138, 51);
+  border-radius: 5px;
+  
+}
+.letters-container button:hover {
+  background-color: rgb(138, 138, 51);
+  color: white;
+}
+.image-container img {
+  margin-top: 20px;
+  max-width: 200px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.controls {
+  width: 500px;
+  height: 300px;
+  /* background-color: #b3b9be; */
+  border-radius: 10px;
+  text-align: center;
+
+  text-align: center;
+
+}
+.input{
+  height: 30px;
+  position: relative;
+  background-color: burlywood;
+  margin-top: 5%;
+
+}
+#Inputnumber{
+  width: 400px;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px 0px 0px 5px;
+  list-style: none;
+  border: 2px solid #fff;
+  position: absolute;
+  left: 0;
+}
+#generateButton{
+  width: 100px;
+  height: 40px;
+  color: #f9f9f9;
+  border-style: none;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(138, 138, 51);
+  font-size: 14px;
+  border-radius: 0 6px 6px 0;
+  position: absolute;
+  right: 0;
+
+}
+.container{
+  height: 100vh;
+  background-image: url(./background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2%;
+  /* background-color: violet; */
+
+}
+.h1{
+  font-size: 50px;
+  color: rgb(10, 16, 32);
+  text-shadow: 5px 5px 10px black;
+}
